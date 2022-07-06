@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TexMe - Chat Application</title>
+<script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+<!-- <script defer src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script> -->
+<script defer type="text/javascript" src="js/user.js"></script>
+<link rel="stylesheet" href="style/css.css">
+<link rel="icon" href="logo.png">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+</head>
+
+<body>
+    <header id="logo">
+        <img src="logo.png" alt="logo">
+        <h2>&nbsp TexMe - Chat Application</h2>
+        <!-- <h2>&nbspApplication</h2> -->
+    </header>
+    <div class="container">
+        <!-- <div class="message right">Me: hi</div>
+        <div class="message left">User1: hello</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="tel" name="messInp" id="msgInp" placeholder="Enter your message...">
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
